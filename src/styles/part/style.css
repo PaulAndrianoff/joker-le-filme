@@ -1,5 +1,5 @@
 body{
-	background:#eee;
+	background:#444;
 	font-family:Helvetica,Arial;
 	font-size:14px;
 }
@@ -9,5 +9,25 @@ body{
 }
 
 h1 {
-	color: #C80000;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	color: #aa0000;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 2em;
+	color: #efefef;
+	text-align: center;
+}
+
+div {
+	width: 40%;
+	margin: 10px auto;
+}
+
+img {
+	width: 100%;
+	height: auto;
 }
