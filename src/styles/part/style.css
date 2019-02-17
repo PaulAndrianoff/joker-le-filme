@@ -1,7 +1,6 @@
 body{
-	background:#444;
+	background:#100000;
 	font-family:Helvetica,Arial;
-	font-size:14px;
 }
 
 .clearBoth{
@@ -11,14 +10,15 @@ body{
 h1 {
 	display: block;
 	padding: 10px;
+	font-size: 2.5em;
 	text-align: center;
+	font-weight: bold;
 	color: #aa0000;
-	text-decoration: underline;
 }
 
 p {
 	font-size: 2em;
-	color: #efefef;
+	color: #eee;
 	text-align: center;
 }
 
