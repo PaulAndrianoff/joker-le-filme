@@ -10,7 +10,7 @@ body {
 	margin: 0;
 	font-family: "Open Sans Condensed", Arial;
 	letter-spacing: 4px;
-	background: url(img/bg.jpg) no-repeat center center;
+	background: url(img/bg.jpg) no-repeat 0 50%;
 	background-size: cover;
 	background-color: #000;
 	color: #fff;
@@ -18,11 +18,13 @@ body {
 }
 
 .container {
+	position: relative;
 	margin: 0 auto;
 	width: 90%;
 	max-width: 1420px;
 	display: flex;
 	justify-content: space-around;
+	z-index: 1;
 }
 
 .what, .infos {
