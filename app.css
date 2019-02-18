@@ -10,7 +10,7 @@ body {
 	margin: 0;
 	font-family: "Open Sans Condensed", Arial;
 	letter-spacing: 4px;
-	background: url(img/bg.png) no-repeat center center;
+	background: url(img/bg.jpg) no-repeat center center;
 	background-size: cover;
 	background-color: #000;
 	color: #fff;
@@ -37,4 +37,16 @@ body {
 	font-weight: 300;
 	text-align: center;
 	font-size: 32px;
+}
+
+@media only screen and (max-width: 720px) {
+	.container {
+		display: block;
+		width: 80%;
+	}
+
+
+	.what, .infos {
+		width: 100%;
+	}
 }
